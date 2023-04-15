@@ -1,8 +1,6 @@
 import {useNavigate} from 'react-router-dom';
 import {Carousel} from "react-responsive-carousel";
 
-import slider1 from 'src/assets/images/slider1.png';
-import slider2 from 'src/assets/images/slider2.png';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 
@@ -32,10 +30,10 @@ const Index = () => {
       onClickItem={handleClickImage}
     >
       <div key="vozol-10000">
-        <img src={slider1} alt=""/>
+        <img src="public/static/images/slider1.png" alt=""/>
       </div>
       <div key="elf-bar-bc-5000">
-        <img src={slider2} alt=""/>
+        <img src="public/static/images/slider2.png" alt=""/>
       </div>
     </Carousel>
   );

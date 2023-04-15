@@ -4,7 +4,6 @@ import {Menu} from 'antd';
 import {NavLink, useLocation, useNavigate} from 'react-router-dom';
 import menuData from "src/layouts/app/header/menuData.jsx";
 
-import logo from 'src/assets/images/logo.png';
 
 import {updateSystemConfig} from "src/helpers/systemConfigHelper.js";
 import {SettingOutlined} from "@ant-design/icons";
@@ -34,7 +33,7 @@ const Header = () => {
     <div className="headerWrapper">
       <div>
         <NavLink to="/">
-          <img src={logo} alt=""/>
+          <img src="public/static/images/logo.png" alt=""/>
         </NavLink>
       </div>
       <div className="menuWrapper">
