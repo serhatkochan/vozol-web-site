@@ -21,12 +21,12 @@ const MyImageComponent = ({src}) => {
       if (exists) {
         setImageUrl(url);
       } else {
-        setImageUrl('public/static/images/500.png'); // Varsayılan resim URL'i
+        setImageUrl('/static/images/500.png'); // Varsayılan resim URL'i
       }
     });
   };
   useEffect(() => {
-    updateImage(`public/static/${src}.png`);
+    updateImage(`/static/${src}.png`);
   }, []);
 
   // Resmi ekranda render etme
