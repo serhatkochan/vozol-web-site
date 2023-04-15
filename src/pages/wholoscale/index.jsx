@@ -10,7 +10,7 @@ const Wholoscale = () => {
           {TranslateHelper.Translate('wholoscale')}
         </h1>
         <h5>Elf bar, Vozol Toptan alımlarda en az alım 50 adettir.</h5>
-        <h5>Toptan iletişim için (Sadece Toptan Alımlar İçin Yazınız): 0(532) 316 20 79</h5>
+        <h5>Toptan iletişim için (Sadece Toptan Alımlar İçin Yazınız): 0(544) 444 44 44</h5>
       </div>
     </div>
   );
