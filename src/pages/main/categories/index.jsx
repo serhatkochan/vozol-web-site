@@ -2,13 +2,14 @@ import categories from 'src/assets/data/categories.json'
 import {Card} from "antd";
 import TranslateHelper from "src/helpers/translateHelper.js";
 import {useNavigate} from "react-router-dom";
+import Image from "src/components/image/index.jsx";
 
 const Categories = () => {
   const navigate = useNavigate();
   return (
     <div className="categoriesWrapper">
       <div className="info">
-        <img src="src/assets/images/mng_kargo.png" alt=""/>
+        <Image src="images/mng_kargo" />
       </div>
       <div className="cardWrapper info">
         {categories.map((category) => {
@@ -16,7 +17,7 @@ const Categories = () => {
             <Card
               key={category.id}
               hoverable
-              cover={<img src={`src/assets/${category.avatar}.png`} alt=""/>}
+              cover={<Image src={category.avatar} />}
               onClick={() => navigate(category.to)}
             >
               <Card.Meta
@@ -34,7 +35,7 @@ const Categories = () => {
         })}
       </div>
       <div className="info">
-        <img src="src/assets/images/discounts.png" alt=""/>
+        <Image src="images/discounts" />
       </div>
     </div>
   );
