@@ -37,7 +37,7 @@ const Header = () => {
           <img src={logo} alt=""/>
         </NavLink>
       </div>
-      <div>
+      <div className="menuWrapper">
         <Menu
           onClick={onChangePage}
           selectedKeys={[currentPage]}
