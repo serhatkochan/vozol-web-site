@@ -1,0 +1,44 @@
+.slider-wrapper {
+  cursor: pointer;
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.info {
+  margin-bottom: 50px;
+}
+.cardWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  .ant-card {
+    flex: 1 0 100px;
+    box-sizing: border-box;
+    margin: 1rem .25em;
+  }
+  @media screen and (min-width: 20em) {
+    .ant-card {
+      max-width: calc(50% - 1em);
+    }
+  }
+  @media screen and (min-width: 40em) {
+    .ant-card {
+      max-width: calc(50% -  1em);
+    }
+  }
+
+  @media screen and (min-width: 60em) {
+    .ant-card {
+      max-width: calc(25% - 1em);
+    }
+  }
+  .priceWrapper {
+    text-align: center;
+    font-size: 16px;
+  }
+}
+img {
+  width: 100%;
+  height: auto;
+}

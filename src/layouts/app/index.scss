@@ -1,9 +1,17 @@
+body {
+  max-height: 80vh;
+}
 .headerWrapper {
   display: flex;
   width: 100%;
   padding: 20px;
   justify-content: space-evenly;
-  margin-bottom: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  background-color: #fff;
   img {
     width: auto;
     height: 40px;
@@ -16,4 +24,12 @@
     flex: auto;
     min-width: 0;
   }
+}
+.content {
+  margin: 100px 0;
+}
+
+.container {
+  width: 80%;
+  margin: 50px auto;
 }

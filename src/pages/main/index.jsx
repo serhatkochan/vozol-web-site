@@ -1,10 +1,17 @@
 import Carousel from "src/pages/main/carousel";
+import Categories from "src/pages/main/categories/index.jsx";
 
+import './index.scss'
+import Products from "src/pages/main/products/index.jsx";
 const Main = () => {
   return (
-    <div>
+    <>
       <Carousel />
-    </div>
+      <div className="container">
+        <Categories />
+        <Products />
+      </div>
+    </>
   );
 };
 
