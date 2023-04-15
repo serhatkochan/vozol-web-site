@@ -1,9 +1,9 @@
-import React from 'react';
+import Carousel from "src/pages/main/carousel";
 
 const Main = () => {
   return (
     <div>
-      Main
+      <Carousel />
     </div>
   );
 };

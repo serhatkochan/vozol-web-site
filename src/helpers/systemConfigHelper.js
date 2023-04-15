@@ -23,5 +23,8 @@ export const updateSystemConfig = (key, value) => {
     };
   }
 
-  localStorageHelper.updateLocalStorageItem(localStorageKeys.SYSTEM, newLocalData);
+  console.log(key, value);
+  console.log(newLocalData);
+
+  localStorageHelper.setLocalStorageItem(localStorageKeys.SYSTEM, newLocalData);
 };
