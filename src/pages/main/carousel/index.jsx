@@ -30,10 +30,10 @@ const Index = () => {
       onClickItem={handleClickImage}
     >
       <div key="vozol-10000">
-        <img src="public/static/images/slider1.png" alt=""/>
+        <img src="/static/images/slider1.png" alt=""/>
       </div>
       <div key="elf-bar-bc-5000">
-        <img src="public/static/images/slider2.png" alt=""/>
+        <img src="/static/images/slider2.png" alt=""/>
       </div>
     </Carousel>
   );
