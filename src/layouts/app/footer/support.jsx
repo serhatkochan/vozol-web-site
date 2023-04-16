@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Vozol6000 = () => {
+const Support = () => {
   return (
     <div>
-      Vozol6000
+      Support
     </div>
   );
 };
 
-export default Vozol6000;
+export default Support;

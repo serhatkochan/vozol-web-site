@@ -2,6 +2,7 @@ import {useNavigate} from 'react-router-dom';
 import {Carousel} from "react-responsive-carousel";
 
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import Image from "src/components/image/index.jsx";
 
 
 const Index = () => {
@@ -29,11 +30,11 @@ const Index = () => {
       swipeScrollTolerance={5}
       onClickItem={handleClickImage}
     >
-      <div key="vozol-10000">
-        <img src="/static/images/slider1.png" alt=""/>
+      <div key="category/vozol-gear-10000">
+        <Image src="images/slider1" preview={false} />
       </div>
-      <div key="elf-bar-bc-5000">
-        <img src="/static/images/slider2.png" alt=""/>
+      <div key="category/elf-bar-bc-5000">
+        <Image src="images/slider2" preview={false} />
       </div>
     </Carousel>
   );

@@ -1,9 +1,5 @@
 .slider-wrapper {
   cursor: pointer;
-  img {
-    width: 100%;
-    height: auto;
-  }
 }
 
 .info {
@@ -13,32 +9,59 @@
   display: flex;
   flex-wrap: wrap;
   .ant-card {
-    flex: 1 0 100px;
+    flex: 1 0 300px;
     box-sizing: border-box;
     margin: 1rem .25em;
+    .ant-card-meta-detail {
+    }
+    .ant-card-meta-title {
+      width: auto;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
   }
   @media screen and (min-width: 20em) {
+    text-align: center;
+    justify-content: center;
     .ant-card {
-      max-width: calc(50% - 1em);
+      max-width: calc(80% - 1em);
     }
   }
   @media screen and (min-width: 40em) {
     .ant-card {
       max-width: calc(50% -  1em);
+      .ant-card-meta-title {
+        width: 200px;
+      }
     }
   }
-
-  @media screen and (min-width: 60em) {
+  @media screen and (min-width: 90em) {
+    .ant-card {
+      max-width: calc(34% - 1em);
+      .ant-card-meta-title {
+        width: auto;
+      }
+    }
+  }
+  @media screen and (min-width: 100em) {
     .ant-card {
       max-width: calc(25% - 1em);
+      .ant-card-meta-title {
+        width: auto;
+      }
     }
   }
   .priceWrapper {
     text-align: center;
     font-size: 16px;
   }
+  a {
+    display: inline;
+    text-decoration: none;
+  }
 }
 img {
-  width: 100%;
-  height: auto;
+  width: 100% !important;
+  height: auto !important;
 }

@@ -1,6 +1,7 @@
-import React, {useEffect, useState} from 'react';
+import {Image as AntImage} from "antd";
+import {useEffect, useState} from "react";
 
-const MyImageComponent = ({src}) => {
+const MyImageComponent = ({src, preview = true}) => {
   const [imageUrl, setImageUrl] = useState(src); // Varsayılan resim URL'i
 
   // Resmin var olup olmadığını kontrol etmek için bir fonksiyon
@@ -21,7 +22,7 @@ const MyImageComponent = ({src}) => {
       if (exists) {
         setImageUrl(url);
       } else {
-        setImageUrl('/static/images/500.png'); // Varsayılan resim URL'i
+        setImageUrl('/static/images/elf_bar_bc_5000_blue_razz_ice.png'); // Varsayılan resim URL'i
       }
     });
   };
@@ -29,11 +30,10 @@ const MyImageComponent = ({src}) => {
     updateImage(`/static/${src}.png`);
   }, []);
 
-  // Resmi ekranda render etme
   return (
-    <div>
-      <img src={imageUrl} alt="Resim" />
-    </div>
+    <AntImage
+      src={imageUrl}
+      preview={preview}/>
   );
 };
 

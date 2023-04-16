@@ -1,0 +1,28 @@
+.productWrapper {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  line-height: 60px;
+
+  .productDescription {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .priceWrapper {
+    display: flex;
+    gap: 10px;
+    .ant-typography {
+    }
+  }
+  .productImageWrapper {
+    width: 500px;
+  }
+
+  @media screen and (maX-width: 40em) {
+    flex-direction: column;
+    .productImageWrapper {
+      width: auto;
+    }
+  }
+}

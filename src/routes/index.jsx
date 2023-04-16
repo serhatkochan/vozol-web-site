@@ -1,9 +1,13 @@
 import {AppLayout, App404Page} from "src/layouts/app"
 import Main from "src/pages/main";
-import ElfBarBc5000 from "src/pages/category/elfBarBc5000.jsx";
-import Vozol6000 from "src/pages/category/vozol6000.jsx";
-import Vozol10000 from "src/pages/category/vozol10000.jsx";
 import Wholoscale from "src/pages/wholoscale";
+import Category from "src/pages/category";
+import AboutUs from "src/layouts/app/footer/aboutUs.jsx";
+import Support from "src/layouts/app/footer/support.jsx";
+import MarketingPolicy from "src/layouts/app/footer/marketingPolicy.jsx";
+import TermsOfUse from "src/layouts/app/footer/termsOfUse.jsx";
+import PrivacyPolicy from "src/layouts/app/footer/privacyPolicy.jsx";
+import Product from "src/pages/product/index.jsx";
 
 const routes = [
   {
@@ -15,20 +19,36 @@ const routes = [
         element: <Main/>
       },
       {
-        path: 'product/elf-bar-bc-5000',
-        element: <ElfBarBc5000 />,
-      },
-      {
-        path: 'product/vozol-6000',
-        element: <Vozol6000 />,
-      },
-      {
-        path: 'product/vozol-10000',
-        element: <Vozol10000 />,
-      },
-      {
         path: 'wholoscale',
         element: <Wholoscale />,
+      },
+      {
+        path: 'category/:to',
+        element: <Category />,
+      },
+      {
+        path: 'product/:to',
+        element: <Product />,
+      },
+      {
+        path: 'about-us',
+        element: <AboutUs />
+      },
+      {
+        path: 'support',
+        element: <Support />
+      },
+      {
+        path: 'marketing-policy',
+        element: <MarketingPolicy />
+      },
+      {
+        path: 'terms-of-use',
+        element: <TermsOfUse />
+      },
+      {
+        path: 'privacy-policy',
+        element: <PrivacyPolicy />
       },
     ]
   },

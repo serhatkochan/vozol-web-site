@@ -1,5 +1,5 @@
 import categories from 'src/assets/data/categories.json'
-import {Card} from "antd";
+import {Card, Tooltip} from "antd";
 import TranslateHelper from "src/helpers/translateHelper.js";
 import {useNavigate} from "react-router-dom";
 import Image from "src/components/image/index.jsx";
@@ -13,23 +13,25 @@ const Categories = () => {
       </div>
       <div className="cardWrapper info">
         {categories.map((category) => {
+          const categoryName = TranslateHelper.Translate(category.name);
           return (
             <Card
               key={category.id}
               hoverable
-              cover={<Image src={category.avatar} />}
+              cover={<Image src={category.avatar} preview={false} />}
               onClick={() => navigate(category.to)}
             >
-              <Card.Meta
-                title={TranslateHelper.Translate(category.name)}
-                description={TranslateHelper.FormatTranslate({
-                  key: 'there_are_count_product',
-                  format: {
-                    count: category.productList.length || 0
-                  }
-                })}
-
-              />
+              <Tooltip title={categoryName}>
+                <Card.Meta
+                  title={categoryName}
+                  description={TranslateHelper.FormatTranslate({
+                    key: 'there_are_count_product',
+                    format: {
+                      count: category.productList.length || 0
+                    }
+                  })}
+                />
+              </Tooltip>
             </Card>
           )
         })}

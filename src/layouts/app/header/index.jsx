@@ -7,6 +7,7 @@ import menuData from "src/layouts/app/header/menuData.jsx";
 
 import {updateSystemConfig} from "src/helpers/systemConfigHelper.js";
 import {SettingOutlined} from "@ant-design/icons";
+import Image from "src/components/image/index.jsx";
 
 const Header = () => {
   const [currentPage, setCurrentPage] = useState('');
@@ -33,7 +34,7 @@ const Header = () => {
     <div className="headerWrapper">
       <div>
         <NavLink to="/">
-          <img src="public/static/images/logo.png" alt=""/>
+          <Image src="images/logo" preview={false} />
         </NavLink>
       </div>
       <div className="menuWrapper">

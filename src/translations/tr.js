@@ -1,9 +1,23 @@
 export const trMessages = {
   main_page: 'Anasayfa',
   elf_bar_bc_5000: 'Elf Bar Bc 5000',
-  vozol_6000: 'Vozol 6000',
+  vozol_7000: 'Vozol 7000',
   vozol_10000: 'Vozol 10000',
   wholoscale: 'Toptan Satış',
   elf_bar_1500: 'Elf Bar 1500',
-  there_are_count_product: '{{count}} adet ürün var'
+  there_are_count_product: '{{count}} adet ürün var',
+  category_desc_elf_bar_5000: 'tek kullanımlık elektronik sigaradır. 650mAh pil gücü ve önceden doldurulmuş 13mL vape tankına sahip, şarj edilebilir bir vape cihazıdır. Her Elf Bar BC5000 elektronik sigara, yetişkinler için 50 mg’lık (%5) bir nikotin içerir. 12-15 çeşit Elf Bar BC5000 puff aromasının tamamı bir USB-C şarj kablosuyla şarj edilebilir.',
+  category_features: '{{categoryName}} Özellikleri',
+  elf_bar_bc_5000_features_1: 'Boyut: 79mm x 41mm x 19mm',
+  elf_bar_bc_5000_features_2: 'E-likit Kapasitesi: 13ml',
+  elf_bar_bc_5000_features_3: 'Nikotin Gücü: 50mg (%5)',
+  elf_bar_bc_5000_features_4: 'Batarya Kapasitesi: 650mAh',
+  elf_bar_bc_5000_features_5: 'Şarj edilebilir pil',
+  elf_bar_bc_5000_features_6: 'Çekim: 5000 çekim',
+  elf_bar_bc_5000_features_7: 'USB Type-C Şarj Bağlantı Noktası',
+  elf_bar_bc_5000_features_8: 'Draw-aktivasyon Ateşleme Mekanizması',
+  elf_bar_bc_5000_features_9: 'Çift Bobin',
+  products: 'Ürünler',
+  count_in_stock: "{{count}} Adet Stokta",
+  out_of_stock: "Stokta Yok"
 }

@@ -1,52 +1,53 @@
-import React from 'react';
-import {useNavigate} from "react-router-dom";
+import {Link, useNavigate} from "react-router-dom";
 import categories from "src/assets/data/categories.json";
-import {Card} from "antd";
+import {Card, Tooltip, Typography} from "antd";
 import TranslateHelper from "src/helpers/translateHelper.js";
 import Image from "src/components/image/index.jsx";
+import FormatHelper from "src/helpers/formatHelper.js";
+
+const {Text} = Typography;
 
 const Products = () => {
   const navigate = useNavigate();
-  const locale = "tr-TR";
-  const options = {
-    style: "currency",
-    currency: "TRY",
-  };
-
   return (
     <div className="productsWrapper">
       <div className="cardWrapper info">
         {categories.map((category) => {
           const productList = category.showMainPage ? category.productList.map((product) => {
+            const productName = TranslateHelper.Translate(product.name);
             return (
-              <>
-                <Card
-                  key={product.id}
-                  hoverable
-                  cover={<Image src={product.avatar}  />}
-                  onClick={() => navigate(product.to)}
-                >
+              <Card
+                key={product.id}
+                hoverable
+                cover={<Image src={product.avatar} preview={false}/>}
+                onClick={() => navigate(product.to)}
+              >
+                <Tooltip title={productName}>
                   <Card.Meta
-                    title={TranslateHelper.Translate(product.name)}
+                    title={productName}
                     description={<div className="priceWrapper">
-                        <s>{product.totalPrice.toLocaleString(locale, options)}</s> <b>{product.salePrice.toLocaleString(locale, options)}</b>
-                      </div>}
+                      <Text delete>{FormatHelper.GetCurrency(product.totalPrice)}</Text>
+                      <Text strong>{FormatHelper.GetCurrency(product.salePrice)}</Text>
+                    </div>}
                   />
-                </Card>
-              </>
+                </Tooltip>
+              </Card>
             )
           }) : <></>
-          return category.showMainPage ? <>
-            <div className="info">
-              {category.key}
-              <Image src={category.headerImage}  />
-            </div>
-            {productList}
-          </> : <></>
+        return category.showMainPage ? <>
+        <div className="info">
+          {category.key}
+          <Link to={category.to}>
+            <Image src={category.headerImage} preview={false}/>
+          </Link>
+        </div>
+        {productList}
+      </> : <></>
         })}
       </div>
     </div>
   );
-};
+}
+  ;
 
-export default Products;
+  export default Products;
