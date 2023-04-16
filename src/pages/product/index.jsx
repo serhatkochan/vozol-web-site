@@ -46,7 +46,7 @@ const Product = () => {
         />
       </div>
       <div className="productDescription">
-        <div className="title"><Title level={1}>asd{TranslateHelper.Translate(productName)}</Title></div>
+        <div className="title"><Title level={1}>{TranslateHelper.Translate(productName)}</Title></div>
         <div className="priceWrapper">
           <Text delete>{FormatHelper.GetCurrency(selectedProduct?.totalPrice)}</Text>
           <Text strong>{FormatHelper.GetCurrency(selectedProduct?.salePrice)}</Text>
