@@ -1,6 +1,7 @@
 import {Button, Typography} from "antd";
 import {InstagramOutlined} from "@ant-design/icons";
 import {Link} from "react-router-dom";
+import TranslateHelper from "src/helpers/translateHelper.js";
 
 const {Title} = Typography;
 const Footer = () => {
@@ -17,34 +18,34 @@ const Footer = () => {
         <div className="footerItems">
           <div className="item">
             <Link to="about-us" preventScrollReset={true}>
-              <Title level={4}>About Us</Title>
+              <Title level={4}>{TranslateHelper.Translate('about_us')}</Title>
             </Link>
           </div>
           <div className="item">
             <Link to="support" preventScrollReset={true}>
-              <Title level={4}>Support</Title>
+              <Title level={4}>{TranslateHelper.Translate('support')}</Title>
             </Link>
           </div>
           <div className="item">
             <Link to="marketing-policy" preventScrollReset={true}>
-              <Title level={4}>Marketing Policy</Title>
+              <Title level={4}>{TranslateHelper.Translate('marketing_policy')}</Title>
             </Link>
           </div>
         </div>
         <div className="footerItems">
           <div className="item">
             <Link to="terms-of-use" preventScrollReset={true}>
-              <Title level={4}>Terms of Use</Title>
+              <Title level={4}>{TranslateHelper.Translate('terms_of_use')}</Title>
             </Link>
           </div>
           <div className="item">
             <Link to="privacy-policy" preventScrollReset={true}>
-              <Title level={4}>Privacy Policy</Title>
+              <Title level={4}>{TranslateHelper.Translate('privacy_policy')}</Title>
             </Link>
           </div>
         </div>
         <div className="footerItems">
-          <Title level={5}>© 2023 Vozol Orjinal Satış Sitesi</Title>
+          <Title level={5}>{TranslateHelper.Translate('copyright')}</Title>
         </div>
       </div>
     </div>

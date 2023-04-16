@@ -19,5 +19,16 @@ export const trMessages = {
   elf_bar_bc_5000_features_9: 'Çift Bobin',
   products: 'Ürünler',
   count_in_stock: "{{count}} Adet Stokta",
-  out_of_stock: "Stokta Yok"
+  out_of_stock: "Stokta Yok",
+  order_line: "Sipariş Hattı",
+  active: "Aktif",
+  hello_how_can_i_help_you: "Merhaba, nasıl yardımcı olabilirim?",
+  instagram: 'İnstagram',
+  whatsapp: 'Whatsapp',
+  about_us: 'Hakkımızda',
+  support: 'Destek',
+  marketing_policy: 'Pazarlama Politikası',
+  terms_of_use: 'Kullanım Şartları',
+  privacy_policy: 'Gizlilik Politikası',
+  copyright: '© 2023 Vozol Orjinal Satış Sitesi'
 }
