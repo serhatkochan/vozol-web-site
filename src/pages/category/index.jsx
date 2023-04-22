@@ -8,6 +8,7 @@ import {Card, Tooltip, Typography} from 'antd';
 
 import './index.scss';
 import Image from "src/components/image/index.jsx";
+import {Helmet} from "react-helmet";
 
 const {Title, Text} = Typography;
 
@@ -28,6 +29,11 @@ const Category = () => {
 
   return (
     <div className="container">
+      <Helmet>
+        <title>
+          {TranslateHelper.Translate(selectedCategory?.name)}
+        </title>
+      </Helmet>
       <Title>{categoryName}</Title>
       <div>
         <Title level={3}>{categoryName}</Title>

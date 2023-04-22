@@ -20,7 +20,7 @@ function App() {
   return (
     <>
       <Helmet htmlAttributes={{lang: currentLang}}>
-        <title>{TranslateHelper.Translate('heeh')}</title>
+        <title>{TranslateHelper.Translate('vozol_online_sales')}</title>
       </Helmet>
       <I18nextProvider i18n={i18n}>
         <ConfigProvider locale={currentLang === 'tr' ? trTr : enUS}>

@@ -6,15 +6,15 @@ const menuData = [
     key: '/'
   },
   {
-    label: TranslateHelper.Translate('elf_bar_bc_5000'),
-    key: '/category/elf-bar-bc-5000'
+    label: TranslateHelper.Translate('vozol_star_6000'),
+    key: '/category/vozol-star-6000'
   },
   {
-    label: TranslateHelper.Translate('vozol_7000'),
+    label: TranslateHelper.Translate('vozol_gear_7000'),
     key: '/category/vozol-gear-7000'
   },
   {
-    label: TranslateHelper.Translate('vozol_10000'),
+    label: TranslateHelper.Translate('vozol_gear_10000'),
     key: '/category/vozol-gear-10000'
   },
   {

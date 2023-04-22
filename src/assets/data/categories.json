@@ -4,6 +4,8 @@
     "name": "elf_bar_1500",
     "avatar": "images/elf_bar_1500",
     "to": "category/elf-bar-1500",
+    "showMainPage": false,
+    "showCategory": false,
     "productList": [
       {
         "id": "product_1_1",
@@ -156,6 +158,8 @@
     "name": "elf_bar_1500_lux",
     "avatar": "images/elf_bar_1500_lux",
     "to": "category/elf-bar-1500-lux",
+    "showMainPage": false,
+    "showCategory": false,
     "productList": [
       {
         "id": "product_2_1",
@@ -281,7 +285,8 @@
     "name": "elf_bar_bc_5000",
     "avatar": "images/elf_bar_bc_5000",
     "headerImage": "images/header_elf_bar_bc_5000",
-    "showMainPage": true,
+    "showMainPage": false,
+    "showCategory": false,
     "to": "category/elf-bar-bc-5000",
     "description": "category_desc_elf_bar_5000",
     "features": {
@@ -504,7 +509,8 @@
     "name": "elf_bar_bc_5000_ultra",
     "avatar": "images/elf_bar_bc_5000_ultra",
     "headerImage": "images/header_elf_bar_bc_5000_ultra",
-    "showMainPage": true,
+    "showMainPage": false,
+    "showCategory": false,
     "to": "category/elf-bar-bc-5000-ultra",
     "productList": [
       {
@@ -604,7 +610,8 @@
     "name": "tugboat_evo_4500",
     "avatar": "images/tugboat_evo_4500",
     "headerImage": "images/header_tugboat_evo_4500",
-    "showMainPage": true,
+    "showMainPage": false,
+    "showCategory": false,
     "to": "category/tugboat-evo-4500",
     "productList": [
       {
@@ -749,6 +756,8 @@
     "name": "vozol_2200",
     "avatar": "images/vozol_2200",
     "to": "category/vozol-2200",
+    "showMainPage": false,
+    "showCategory": false,
     "productList": [
       {
         "id": "product_6_1",
@@ -838,7 +847,8 @@
     "name": "vozol_alien_5000",
     "avatar": "images/vozol_alien_5000",
     "headerImage": "images/header_vozol_alien_5000",
-    "showMainPage": true,
+    "showMainPage": false,
+    "showCategory": false,
     "to": "category/vozol-alien-5000",
     "productList": [
       {
@@ -1029,142 +1039,158 @@
     "avatar": "images/vozol_gear_10000",
     "headerImage": "images/header_vozol_gear_10000",
     "showMainPage": true,
+    "showCategory": true,
     "to": "category/vozol-gear-10000",
+    "description": "category_desc_vozol_gear_10000",
+    "features": {
+      "type": "array",
+      "keyList": [
+        "vozol_gear_10000_features_1",
+        "vozol_gear_10000_features_2",
+        "vozol_gear_10000_features_3",
+        "vozol_gear_10000_features_4",
+        "vozol_gear_10000_features_5",
+        "vozol_gear_10000_features_6",
+        "vozol_gear_10000_features_7",
+        "vozol_gear_10000_features_8",
+        "vozol_gear_10000_features_9"
+      ]
+    },
     "productList": [
       {
         "id": "product_8_1",
         "name": "vozol_gear_10000_blue_razz_lemon",
         "avatar": "images/vozol_gear_10000_blue_razz_lemon",
         "to": "product/vozol-gear-10000-blue-razz-lemon",
-        "totalPrice": 300,
-        "salePrice": 230,
-        "stock": 0
+        "totalPrice": 630,
+        "salePrice": 489,
+        "stock": 15
       },
       {
         "id": "product_8_2",
         "name": "vozol_gear_10000_cedar_berries",
         "avatar": "images/vozol_gear_10000_cedar_berries",
         "to": "product/vozol-gear-10000-cedar-berries",
-        "totalPrice": 300,
-        "salePrice": 230,
-        "stock": 0
+        "totalPrice": 630,
+        "salePrice": 489,
+        "stock": 15
       },
       {
         "id": "product_8_3",
         "name": "vozol_gear_10000_cream_tobacco",
         "avatar": "images/vozol_gear_10000_cream_tobacco",
         "to": "product/vozol-gear-10000-cream-tobacco",
-        "totalPrice": 300,
-        "salePrice": 230,
-        "stock": 0
+        "totalPrice": 630,
+        "salePrice": 489,
+        "stock": 15
       },
       {
         "id": "product_8_4",
         "name": "vozol_gear_10000_dragon_fruit_banana_cherry",
         "avatar": "images/vozol_gear_10000_dragon_fruit_banana_cherry",
         "to": "product/vozol-gear-10000-dragon-fruit-banana-cherry",
-        "totalPrice": 300,
-        "salePrice": 230,
-        "stock": 0
+        "totalPrice": 630,
+        "salePrice": 489,
+        "stock": 15
       },
       {
         "id": "product_8_5",
         "name": "vozol_gear_10000_forest_berry_storm",
         "avatar": "images/vozol_gear_10000_forest_berry_storm",
         "to": "product/vozol-gear-10000-forest-berry-storm",
-        "totalPrice": 300,
-        "salePrice": 230,
-        "stock": 0
+        "totalPrice": 630,
+        "salePrice": 489,
+        "stock": 15
       },
       {
         "id": "product_8_6",
         "name": "vozol_gear_10000_green_blast",
         "avatar": "images/vozol_gear_10000_green_blast",
         "to": "product/vozol-gear-10000-green-blast",
-        "totalPrice": 300,
-        "salePrice": 230,
-        "stock": 0
+        "totalPrice": 630,
+        "salePrice": 489,
+        "stock": 15
       },
       {
         "id": "product_8_7",
         "name": "vozol_gear_10000_green_chocolate_cream",
         "avatar": "images/vozol_gear_10000_green_chocolate_cream",
         "to": "product/vozol-gear-10000-green-chocolate-cream",
-        "totalPrice": 300,
-        "salePrice": 230,
-        "stock": 0
+        "totalPrice": 630,
+        "salePrice": 489,
+        "stock": 15
       },
       {
         "id": "product_8_8",
         "name": "vozol_gear_10000_kiwi_guava_passion_fruit",
         "avatar": "images/vozol_gear_10000_kiwi_guava_passion_fruit",
         "to": "product/vozol-gear-10000-kiwi-guava-passion-fruit",
-        "totalPrice": 300,
-        "salePrice": 230,
-        "stock": 0
+        "totalPrice": 630,
+        "salePrice": 489,
+        "stock": 15
       },
       {
         "id": "product_8_9",
         "name": "vozol_gear_10000_lemon_mint",
         "avatar": "images/vozol_gear_10000_lemon_mint",
         "to": "product/vozol-gear-10000-lemon-mint",
-        "totalPrice": 300,
-        "salePrice": 230,
-        "stock": 0
+        "totalPrice": 630,
+        "salePrice": 489,
+        "stock": 15
       },
       {
         "id": "product_8_10",
         "name": "vozol_gear_10000_lush_ice",
         "avatar": "images/vozol_gear_10000_lush_ice",
         "to": "product/vozol-gear-10000-lush-ice",
-        "totalPrice": 300,
-        "salePrice": 230,
-        "stock": 0
+        "totalPrice": 630,
+        "salePrice": 489,
+        "stock": 15
       },
       {
         "id": "product_8_11",
         "name": "vozol_gear_10000_passion_fruit_raspberry_tangerine",
         "avatar": "images/vozol_gear_10000_passion_fruit_raspberry_tangerine",
         "to": "product/vozol-gear-10000-passion-fruit-raspberry-tangerine",
-        "totalPrice": 300,
-        "salePrice": 230,
-        "stock": 0
+        "totalPrice": 630,
+        "salePrice": 489,
+        "stock": 15
       },
       {
         "id": "product_8_12",
         "name": "vozol_gear_10000_peach_mango_smoothie",
         "avatar": "images/vozol_gear_10000_peach_mango_smoothie",
         "to": "product/vozol-gear-10000-peach-mango-smoothie",
-        "totalPrice": 300,
-        "salePrice": 230,
-        "stock": 0
+        "totalPrice": 630,
+        "salePrice": 489,
+        "stock": 15
       },
       {
         "id": "product_8_13",
         "name": "vozol_gear_10000_read_mojito",
         "avatar": "images/vozol_gear_10000_read_mojito",
         "to": "product/vozol-gear-10000-read-mojito",
-        "totalPrice": 300,
-        "salePrice": 230,
-        "stock": 0
+        "totalPrice": 630,
+        "salePrice": 489,
+        "stock": 15
       },
       {
         "id": "product_8_14",
         "name": "vozol_gear_10000_sour_apple_ice",
         "avatar": "images/vozol_gear_10000_sour_apple_ice",
         "to": "product/vozol-gear-10000-sour-apple-ice",
-        "totalPrice": 300,
-        "salePrice": 230,
-        "stock": 0
+        "totalPrice": 630,
+        "salePrice": 489,
+        "stock": 15
       },
       {
         "id": "product_8_15",
         "name": "vozol_gear_10000_strawberry_smoothie",
         "avatar": "images/vozol_gear_10000_strawberry_smoothie",
         "to": "product/vozol-gear-10000-strawberry-smoothie",
-        "totalPrice": 300,
-        "salePrice": 230,
-        "stock": 0
+        "totalPrice": 630,
+        "salePrice": 489,
+        "stock": 15
       }
     ]
   },
@@ -1173,6 +1199,8 @@
     "name": "vozol_gear_5000",
     "avatar": "images/vozol_gear_5000",
     "to": "category/vozol-gear-5000",
+    "showMainPage": false,
+    "showCategory": false,
     "productList": [
       {
         "id": "product_9_1",
@@ -1281,142 +1309,159 @@
     "avatar": "images/vozol_gear_7000",
     "headerImage": "images/header_vozol_gear_7000",
     "showMainPage": true,
+    "showCategory": true,
     "to": "category/vozol-gear-7000",
+    "description": "category_desc_vozol_gear_7000",
+    "features": {
+      "type": "array",
+      "keyList": [
+        "vozol_gear_7000_features_1",
+        "vozol_gear_7000_features_2",
+        "vozol_gear_7000_features_3",
+        "vozol_gear_7000_features_4",
+        "vozol_gear_7000_features_5",
+        "vozol_gear_7000_features_6",
+        "vozol_gear_7000_features_7",
+        "vozol_gear_7000_features_8",
+        "vozol_gear_7000_features_9",
+        "vozol_gear_7000_features_10"
+      ]
+    },
     "productList": [
       {
         "id": "product_10_1",
         "name": "vozol_gear_7000_aloe_grape",
         "avatar": "images/vozol_gear_7000_aloe_grape",
         "to": "product/vozol-gear-7000-aloe-grape",
-        "totalPrice": 300,
-        "salePrice": 230,
-        "stock": 0
+        "totalPrice": 499,
+        "salePrice": 440,
+        "stock": 15
       },
       {
         "id": "product_10_2",
         "name": "vozol_gear_7000_blue_razz_lemon",
         "avatar": "images/vozol_gear_7000_blue_razz_lemon",
         "to": "product/vozol-gear-7000-blue-raz-lemon",
-        "totalPrice": 300,
-        "salePrice": 230,
-        "stock": 0
+        "totalPrice": 499,
+        "salePrice": 440,
+        "stock": 15
       },
       {
         "id": "product_10_3",
         "name": "vozol_gear_7000_cedar_pomelo",
         "avatar": "images/vozol_gear_7000_cedar_pomelo",
         "to": "product/vozol-gear-7000-cedar-pomelo",
-        "totalPrice": 300,
-        "salePrice": 230,
-        "stock": 0
+        "totalPrice": 499,
+        "salePrice": 440,
+        "stock": 15
       },
       {
         "id": "product_10_4",
         "name": "vozol_gear_7000_forest_berry_storm",
         "avatar": "images/vozol_gear_7000_forest_berry_storm",
         "to": "product/vozol-gear-7000-forest-berry-storm",
-        "totalPrice": 300,
-        "salePrice": 230,
-        "stock": 0
+        "totalPrice": 499,
+        "salePrice": 440,
+        "stock": 15
       },
       {
         "id": "product_10_5",
         "name": "vozol_gear_7000_grandmaster_tobacco",
         "avatar": "images/vozol_gear_7000_grandmaster_tobacco",
         "to": "product/vozol-gear-7000-grandmaster-tobacco",
-        "totalPrice": 300,
-        "salePrice": 230,
-        "stock": 0
+        "totalPrice": 499,
+        "salePrice": 440,
+        "stock": 15
       },
       {
         "id": "product_10_6",
         "name": "vozol_gear_7000_jungle_bird",
         "avatar": "images/vozol_gear_7000_jungle_bird",
         "to": "product/vozol-gear-7000-jungle-bird",
-        "totalPrice": 300,
-        "salePrice": 230,
-        "stock": 0
+        "totalPrice": 499,
+        "salePrice": 440,
+        "stock": 15
       },
       {
         "id": "product_10_7",
         "name": "vozol_gear_7000_kiwi_guava_passion_fruit",
         "avatar": "images/vozol_gear_7000_kiwi_guava_passion_fruit",
         "to": "product/vozol-gear-7000-kiwi-guava-passion-fruit",
-        "totalPrice": 300,
-        "salePrice": 230,
-        "stock": 0
+        "totalPrice": 499,
+        "salePrice": 440,
+        "stock": 15
       },
       {
         "id": "product_10_8",
         "name": "vozol_gear_7000_lemon_mint",
         "avatar": "images/vozol_gear_7000_lemon_mint",
         "to": "product/vozol-gear-7000-lemon-mint",
-        "totalPrice": 300,
-        "salePrice": 230,
-        "stock": 0
+        "totalPrice": 499,
+        "salePrice": 440,
+        "stock": 15
       },
       {
         "id": "product_10_9",
         "name": "vozol_gear_7000_lush_ice",
         "avatar": "images/vozol_gear_7000_lush_ice",
         "to": "product/vozol-gear-7000-lush-ice",
-        "totalPrice": 300,
-        "salePrice": 230,
-        "stock": 0
+        "totalPrice": 499,
+        "salePrice": 440,
+        "stock": 15
       },
       {
         "id": "product_10_10",
         "name": "vozol_gear_7000_lychee_cheesy_sorbet",
         "avatar": "images/vozol_gear_7000_lychee_cheesy_sorbet",
         "to": "product/vozol-gear-7000-lychee-cheesy-sorbet",
-        "totalPrice": 300,
-        "salePrice": 230,
-        "stock": 0
+        "totalPrice": 499,
+        "salePrice": 440,
+        "stock": 15
       },
       {
         "id": "product_10_11",
         "name": "vozol_gear_7000_lychee_guava_watermelon",
         "avatar": "images/vozol_gear_7000_lychee_guava_watermelon",
         "to": "product/vozol-gear-7000-lychee-guava-watermelon",
-        "totalPrice": 300,
-        "salePrice": 230,
-        "stock": 0
+        "totalPrice": 499,
+        "salePrice": 440,
+        "stock": 15
       },
       {
         "id": "product_10_12",
         "name": "vozol_gear_7000_peach_mango_smoothie",
         "avatar": "images/vozol_gear_7000_peach_mango_smoothie",
         "to": "product/vozol-gear-7000-peach-mango-smoothie",
-        "totalPrice": 300,
-        "salePrice": 230,
-        "stock": 0
+        "totalPrice": 499,
+        "salePrice": 440,
+        "stock": 15
       },
       {
         "id": "product_10_13",
         "name": "vozol_gear_7000_snow_top_coffe",
         "avatar": "images/vozol_gear_7000_snow_top_coffe",
         "to": "product/vozol-gear-7000-snow-top-coffe",
-        "totalPrice": 300,
-        "salePrice": 230,
-        "stock": 0
+        "totalPrice": 499,
+        "salePrice": 440,
+        "stock": 15
       },
       {
         "id": "product_10_14",
         "name": "vozol_gear_7000_strawberry_smoothie",
         "avatar": "images/vozol_gear_7000_strawberry_smoothie",
         "to": "product/vozol-gear-7000-strawberry-smoothie",
-        "totalPrice": 300,
-        "salePrice": 230,
-        "stock": 0
+        "totalPrice": 499,
+        "salePrice": 440,
+        "stock": 15
       },
       {
         "id": "product_10_15",
         "name": "vozol_gear_7000_tangerine",
         "avatar": "images/vozol_gear_7000_tangerine",
         "to": "product/vozol-gear-7000-tangerine",
-        "totalPrice": 300,
-        "salePrice": 230,
-        "stock": 0
+        "totalPrice": 499,
+        "salePrice": 440,
+        "stock": 15
       }
     ]
   },
@@ -1425,6 +1470,8 @@
     "name": "vozol_star_2000",
     "avatar": "images/vozol_star_2000",
     "to": "category/vozol-star-2000",
+    "showMainPage": false,
+    "showCategory": false,
     "productList": [
       {
         "id": "product_11_1",
@@ -1577,6 +1624,8 @@
     "name": "vozol_star_3000",
     "avatar": "images/vozol_star_3000",
     "to": "category/vozol-star-3000",
+    "showMainPage": false,
+    "showCategory": false,
     "productList": [
       {
         "id": "product_12_1",
@@ -1693,6 +1742,8 @@
     "name": "vozol_star_4000",
     "avatar": "images/vozol_star_4000",
     "to": "category/vozol-star-4000",
+    "showMainPage": false,
+    "showCategory": false,
     "productList": [
       {
         "id": "product_13_1",
@@ -1792,124 +1843,139 @@
     "avatar": "images/vozol_star_6000",
     "headerImage": "images/header_vozol_star_6000",
     "showMainPage": true,
+    "showCategory": true,
     "to": "category/vozol-star-6000",
+    "description": "category_desc_vozol_star_6000",
+    "features": {
+      "type": "array",
+      "keyList": [
+        "vozol_star_6000_features_1",
+        "vozol_star_6000_features_2",
+        "vozol_star_6000_features_3",
+        "vozol_star_6000_features_4",
+        "vozol_star_6000_features_5",
+        "vozol_star_6000_features_6",
+        "vozol_star_6000_features_7",
+        "vozol_star_6000_features_8"
+      ]
+    },
     "productList": [
       {
         "id": "product_14_1",
         "name": "vozol_star_6000_blackberry_posion_fruit_milk",
         "avatar": "images/vozol_star_6000_blackberry_posion_fruit_milk",
         "to": "product/vozol-star-6000-blackberry-posion-fruit-milk",
-        "totalPrice": 300,
-        "salePrice": 230,
-        "stock": 0
+        "totalPrice": 450,
+        "salePrice": 399,
+        "stock": 10
       },
       {
         "id": "product_14_2",
         "name": "vozol_star_6000_aloe_grape",
         "avatar": "images/vozol_star_6000_aloe_grape",
         "to": "product/vozol-star-6000-aloe-grape",
-        "totalPrice": 300,
-        "salePrice": 230,
-        "stock": 0
+        "totalPrice": 450,
+        "salePrice": 399,
+        "stock": 10
       },
       {
         "id": "product_14_3",
         "name": "vozol_star_6000_blue_razz_lemon",
         "avatar": "images/vozol_star_6000_blue_razz_lemon",
         "to": "product/vozol-star-6000-blue-razz-lemon",
-        "totalPrice": 300,
-        "salePrice": 230,
-        "stock": 0
+        "totalPrice":450,
+        "salePrice": 399,
+        "stock": 10
       },
       {
         "id": "product_14_4",
         "name": "vozol_star_6000_clear",
         "avatar": "images/vozol_star_6000_clear",
         "to": "product/vozol-star-6000-clear",
-        "totalPrice": 300,
-        "salePrice": 230,
-        "stock": 0
+        "totalPrice": 450,
+        "salePrice": 399,
+        "stock": 10
       },
       {
         "id": "product_14_5",
         "name": "vozol_star_6000_cool_mint",
         "avatar": "images/vozol_star_6000_cool_mint",
         "to": "product/vozol-star-6000-cool-mint",
-        "totalPrice": 300,
-        "salePrice": 230,
-        "stock": 0
+        "totalPrice": 450,
+        "salePrice": 399,
+        "stock": 10
       },
       {
         "id": "product_14_6",
         "name": "vozol_star_6000_forest_berry_storm",
         "avatar": "images/vozol_star_6000_forest_berry_storm",
         "to": "product/vozol-star-6000-forest-berry-storm",
-        "totalPrice": 300,
-        "salePrice": 230,
-        "stock": 0
+        "totalPrice": 450,
+        "salePrice": 399,
+        "stock": 10
       },
       {
         "id": "product_14_7",
         "name": "vozol_star_6000_kiwi_guava_passion_fruit",
         "avatar": "images/vozol_star_6000_kiwi_guava_passion_fruit",
         "to": "product/vozol-star-6000-kiwi-guava-passion-fruit",
-        "totalPrice": 300,
-        "salePrice": 230,
-        "stock": 0
+        "totalPrice": 450,
+        "salePrice": 399,
+        "stock": 10
       },
       {
         "id": "product_14_8",
         "name": "vozol_star_6000_mango_peach_pineapple",
         "avatar": "images/vozol_star_6000_mango_peach_pineapple",
         "to": "product/vozol-star-6000-mango-peach-pineapple",
-        "totalPrice": 300,
-        "salePrice": 230,
-        "stock": 0
+        "totalPrice": 450,
+        "salePrice": 399,
+        "stock": 10
       },
       {
         "id": "product_14_9",
         "name": "vozol_star_6000_rainbow_candy",
         "avatar": "images/vozol_star_6000_rainbow_candy",
         "to": "product/vozol-star-6000-rainbow-candy",
-        "totalPrice": 300,
-        "salePrice": 230,
-        "stock": 0
+        "totalPrice": 450,
+        "salePrice": 399,
+        "stock": 10
       },
       {
         "id": "product_14_10",
         "name": "vozol_star_6000_sour_apple_ice",
         "avatar": "images/vozol_star_6000_sour_apple_ice",
         "to": "product/vozol-star-6000-sour-apple-ice",
-        "totalPrice": 300,
-        "salePrice": 230,
-        "stock": 0
+        "totalPrice": 450,
+        "salePrice": 399,
+        "stock": 10
       },
       {
         "id": "product_14_11",
         "name": "vozol_star_6000_strawberry_ice_cream",
         "avatar": "images/vozol_star_6000_strawberry_ice_cream",
         "to": "product/vozol-star-6000-strawberry-ice-cream",
-        "totalPrice": 300,
-        "salePrice": 230,
-        "stock": 0
+        "totalPrice": 450,
+        "salePrice": 399,
+        "stock": 12
       },
       {
         "id": "product_14_12",
         "name": "vozol_star_6000_tobacco",
         "avatar": "images/vozol_star_6000_tobacco",
         "to": "product/vozol-star-6000-tobacco",
-        "totalPrice": 300,
-        "salePrice": 230,
-        "stock": 0
+        "totalPrice": 450,
+        "salePrice": 399,
+        "stock": 12
       },
       {
         "id": "product_14_13",
         "name": "vozol_star_6000_watermelon_bubble_gum",
         "avatar": "images/vozol_star_6000_watermelon_bubble_gum",
         "to": "product/vozol-star-6000-watermelon-bubble-gum",
-        "totalPrice": 300,
-        "salePrice": 230,
-        "stock": 0
+        "totalPrice": 450,
+        "salePrice": 399,
+        "stock": 12
       }
     ]
   },
@@ -1918,7 +1984,8 @@
     "name": "yuoto_3000",
     "avatar": "images/yuoto_3000",
     "headerImage": "images/header_yuoto_3000",
-    "showMainPage": true,
+    "showMainPage": false,
+    "showCategory": false,
     "to": "category/yuoto-3000",
     "productList": [
       {

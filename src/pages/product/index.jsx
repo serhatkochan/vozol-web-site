@@ -7,6 +7,7 @@ import {Breadcrumb, Typography} from "antd";
 import './index.scss';
 import FormatHelper from "src/helpers/formatHelper.js";
 import Image from "src/components/image/index.jsx";
+import {Helmet} from "react-helmet";
 
 const {Text, Title} = Typography;
 
@@ -27,6 +28,11 @@ const Product = () => {
   }, [to]);
   return (
     <div className="container productWrapper">
+      <Helmet>
+        <title>
+          {TranslateHelper.Translate(selectedProduct?.name)}
+        </title>
+      </Helmet>
       <div className="breadcrumb">
         <Breadcrumb
           items={[

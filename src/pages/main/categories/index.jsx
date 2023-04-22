@@ -12,7 +12,7 @@ const Categories = () => {
         <Image src="images/mng_kargo" />
       </div>
       <div className="cardWrapper info">
-        {categories.map((category) => {
+        {categories.filter((categoryItem) => categoryItem.showCategory).map((category) => {
           const categoryName = TranslateHelper.Translate(category.name);
           return (
             <Card
